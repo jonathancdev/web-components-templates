@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <title>Site Title</title>
+    <!-- import script with all components -->
+    <script type="module" src="/scripts/components.js"></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header-component></header-component>
+
+    <!-- main -->
+    <main class="home">
+      <!-- CAROUSEL START -->
+      <carousel-component>
+        <!-- carousel item 1 -->
+        <div slot="item" class="carousel-item item-1">Carousel slide 1</div>
+        <!-- carousel item 2 -->
+        <div slot="item" class="carousel-item item-2">Carousel slide 2</div>
+        <!-- carousel item 3 -->
+        <div slot="item" class="carousel-item item-3">Carousel slide 3</div>
+      </carousel-component>
+
+      <h2 class="cta">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+        dis parturient montes
+      </h2>
+
+      <card-component>
+        <button-component>Button 1</button-component>
+      </card-component>
+      <card-component>
+        <button-component size="small">Button 2</button-component>
+      </card-component>
+      <card-component>
+        <button-component variant="filled">Button 3</button-component>
+      </card-component>
+      <card-component>
+        <button-component size="small" variant="filled"
+          >Button 4</button-component
+        >
+      </card-component>
+      <div class="intro">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+          nec, vulputate eget, arcu.
+        </p>
+      </div>
+      <card-component>
+        <popup-info-component icon="/img/icons/svg/info.svg"
+          >Pass some text in here</popup-info-component
+        >
+      </card-component>
+      <card-component>
+        <popup-info-component
+          icon="/img/icons/svg/info.svg"
+        ></popup-info-component>
+      </card-component>
+
+      <div class="intro">
+        <p>
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+          dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+          Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+          Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+          Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+          Aenean imperdiet. Etiam ultricies
+        </p>
+      </div>
+
+      <div class="icons">
+        <social-icon-link-component
+          icon-url="/img/icons/svg/twitter.svg"
+          link-url="https:/www.twitter.com/"
+        >
+        </social-icon-link-component>
+        <social-icon-link-component
+          icon-url="/img/icons/svg/github.svg"
+          link-url="https://www.github.com/"
+        >
+        </social-icon-link-component>
+        <social-icon-link-component
+          icon-url="/img/icons/svg/smile.svg"
+          link-url="/index.html"
+        >
+        </social-icon-link-component>
+      </div>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+@import url("./carousel.css");
+@import url("./carousel-items.css");
+@import url("./cards-grid.css");
+
+.home .cta {
+  font-size: var(--18px);
+  font-weight: 200;
+  margin: 4rem 0;
+  padding: 0rem var(--side-padding);
+  text-align: justify;
+}
+.iframe__wrapper {
+  height: 200px;
+  width: 250px;
+  border: solid;
+  margin: 0 auto;
+  background-color: black;
+}
+.home .intro h3 {
+  font-size: var(--20px);
+  margin: 0.5rem 0;
+}
+.home .intro {
+  padding: 1rem var(--side-padding);
+}
+.home .intro p {
+  padding: 0.5rem 0;
+}
+.home .icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+@media screen and (min-width: 425px) {
+  .home .cta {
+    font-size: var(--24px);
+  }
+}
+@media screen and (min-width: 769px) {
+  .home .cta {
+    font-size: var(--24px);
+  }
+  .social-links {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .social-links .icons {
+    margin-top: 0;
+  }
+  .social-links p {
+    margin: 0rem;
+    margin-right: 1rem;
+  }
+  .icon-credit {
+    margin-bottom: 2rem;
+  }
+}

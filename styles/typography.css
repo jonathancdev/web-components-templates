@@ -1,0 +1,12 @@
+p,
+a,
+button {
+  font-size: var(--18px);
+  color: var(--color-primary);
+}
+body {
+  font-family: var(--body-font);
+  font-weight: 300;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
