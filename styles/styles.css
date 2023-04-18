@@ -1,6 +1,7 @@
+/*global styles*/
 @import url("./globals.css");
 @import url("./variables.css");
 @import url("./typography.css");
 
-/* pages */
+/* individual pages */
 @import url("./home/home.css");
